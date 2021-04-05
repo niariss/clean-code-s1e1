@@ -47,7 +47,9 @@
 }
 .incomplete__item,
 .completed__item,
-.main__heading_h3 {
+.task-incomplete__h3,
+.completed-task__h3
+ {
     list-style: none;
 }
 .adding-task__input,
@@ -69,8 +71,8 @@
     color: #3a3A3a;
 }
 /* Heading */
-.completed-task__heading_h3,
-.task-incomplete__heading_h3,
+.completed-task__h3,
+.task-incomplete__h3,
 .adding-task__label {
     color: #333;
     font-weight: 700;
